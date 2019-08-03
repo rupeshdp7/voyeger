@@ -1,0 +1,74 @@
+[data_attr~='gameView'],
+.gamePlot {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+
+    [data_attr='playBtn'] {
+        position: relative;
+        height: 60px;
+        width: 60px;
+    }
+
+    #testDiv_1{
+        position: absolute;
+        left: 0%;
+        top: 30%;
+        width: 256px;
+        height: 256px;
+        border: 2px solid orange;
+      }
+
+    .topSection {
+        position: absolute;
+        left: 250px;
+        top:10px;
+        [data_attr^='letter'] {
+            position: relative;
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+            float: left;
+            margin-top: 25px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+            line-height: 50px;
+        }
+        .hide{
+            color:transparent;
+            cursor: default;
+        }
+    }
+
+    .midSection {
+        position: absolute;
+    }
+
+    .bottomSection {
+        position: absolute;
+        left: 330px;
+        bottom:50px;
+        [data_attr^='letter'],[data_attr^='letter_bottom']  {
+            position: relative;
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+            float: left;
+            margin-top: 25px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+            line-height: 50px;
+        }
+    }
+}
